@@ -1,0 +1,33 @@
+<body onload="loader()">
+  <div class='loader'>
+  </div>
+    <!-- header section -->
+    <section>
+       <nav class="navbar navbar-expand-lg">
+           <a class="navbar-brand hvr-underline-from-center" href="#">Helper</a>
+           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+         
+           <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             <ul class="navbar-nav mr-auto">
+               <li class="nav-item active">
+                 <a class="nav-link <%= path==='/' ? 'active' : ''%>" href="/">Home<span class="sr-only">(current)</span></a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link <%= path==='/services' ? 'active' : ''%>" href="/services">Services</a>
+               </li>
+               
+          
+               <li class="nav-item">
+                   <a class="nav-link <%= path==='/apply' ? 'active' : ''%>" href="/apply">Apply</a>
+               </li>
+               <li class="nav-item">
+                   <a class="nav-link <%= path==='/about' ? 'active' : ''%>" href="/about">About</a>
+                 </li>
+             </ul>
+             
+           </div>
+         </nav>
+    </section>
+    

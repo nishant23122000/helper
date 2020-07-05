@@ -1,0 +1,66 @@
+.head{
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 40px;
+}
+img{
+    width: 100%;
+    height: 60vh;
+    z-index: -1;
+    filter: brightness(0.5);
+}
+.service_name{
+    justify-content: center;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    margin-bottom: 20px;
+}
+.div{
+    width: 60%;
+    height: 400px;
+    
+    position: absolute;
+    top:45%;
+    left:20%
+}
+.sp{
+    margin-top: 50px;
+}
+.apply{
+    margin-top: 30px;
+    width: 100%;
+    padding: 0 20px;
+    
+}
+.form{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+   
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: -6px -6px 20px rgba(255,255,255,1),
+    6px 6px 20px rgba(0,0,0,1)
+}
+
+.time{
+    float: left;
+    
+    width: 10%;
+    }
+    .time p{
+        margin-left: 13px;
+    }
+    .time input{
+        width: 130%;
+    }
+    .time select{
+        margin-left: 30px;
+        margin-top: -100px;
+        width: 300%;
+    }

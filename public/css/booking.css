@@ -1,0 +1,18 @@
+img{
+    height: 200px;
+    width: 100%;
+}
+.serviceman{
+    display: flex;
+    flex-flow: wrap;
+}
+.card{
+    border: 1px solid black;
+    font-family: 'Raleway', sans-serif;
+    justify-content: center;
+    text-align: center;
+    width: 20% !important;
+    margin: 20px;
+   
+   
+}

@@ -1,0 +1,55 @@
+<%- include('../includes/header.ejs')%>
+<link rel="stylesheet" href="/css/apply.css">
+<link rel="stylesheet" href="/css/service_hire.css">
+
+<%- include('../includes/navbar.ejs')%>
+<div class='sp'></div>
+    <p class='head'>Just one step behind to join our force and lend your service😃</p>
+    
+    <div class='form'>
+        <form action="" method="POST">
+            <div class='name'>
+                <label for="name">Full Name :</label>
+            <input type="text" name="name" placeholder="Name" required>
+            </div>
+            <div class='name'>
+                <label for="phoneno">Phone No :</label>
+                <input type="number" name="phoneno" placeholder="Phone No" required>
+            </div>
+            <div class='name'>
+                <label for="email">Email :</label>
+                <input type="email" name="email" placeholder="Email" required>
+            </div>
+           <div class='pro'>
+            <label for="profession">What is your Profession?</label>
+            <select name='profession'>
+                <option value="Cleaning">Cleaning</option>
+                <option value="TV and Electronics">TV and Electronics</option>
+                <option value="Assembly">Assembly</option>
+                <option value="General Handyman">General Handyman</option>
+                <option value="Plumbing">Plumbing</option>
+                <option value="Electrical">Electrical</option>
+                <option value="Painting">Painting</option>
+            </select>
+           </div>
+            <div class='pro'>
+                <label for="experience">Experience do you Have?</label>
+            <input type="number" name="experience" placeholder="experience in year" required>
+            </div>
+            
+            <label id="working"  for="image">Provide Your PhotoURL</label>
+            <input type="text" name="image" placeholder="url" required>
+            <label id="working" for="workinghrs">What is your daily working hours?</label>
+            <input type="number" name="workinghrs" placeholder="workinh hours" required>
+                <div class='four'>
+                    <label for="wageperday">Mention your minimum wage per day?</label>
+            <input type="number" name="wageperday" placeholder="wageperday" required>
+                </div>
+                <div class='four'>
+                    <button type="submit">submit</button>
+                </div>
+            
+
+        </form>
+    </div>
+<%- include('../includes/footer.ejs')%>

@@ -1,0 +1,25 @@
+<%- include('../includes/header.ejs')%>
+    <link rel="stylesheet" href="/css/booking.css">
+<%- include('../includes/navbar.ejs')%>
+    <% if(service) {%>
+        <div class='serviceman'>
+            <% for(let helper of service) { %>
+            
+                    <div class="card" style="width: 18rem;">
+                        <img src="<%=helper.photoURL%>" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title"><%=helper.name%></h5>
+                          <h6>Phone No:<%=helper.phoneNo%></h6>
+                          <h6>experience:<%=helper.experience%></h6>
+                          <h6>wagePerDay:<%=helper.wagePerDay%></h6>
+                          <a href="#" class="btn btn-primary">Hire</a>
+                        </div>
+                      </div>
+               
+            <% }%>
+            </div>
+    <%} else {%>
+            <h1 style="font-family: 'Raleway', sans-serif;">current not any <%=name%> service available </h1>
+        <%}%>
+
+<%- include('../includes/footer.ejs')%>

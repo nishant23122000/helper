@@ -1,0 +1,78 @@
+.form:hover{
+    box-shadow: inset -6px -6px 20px rgba(255,255,255,0.5),
+    inset 6px 6px 20px rgba(0,0,0,0.05);
+}
+input{
+    display: flex;
+    background: transparent;
+    margin-left: 10px;
+    border: 0;
+    border-bottom: 1px solid black;
+    outline-color: transparent;
+
+    
+}
+.name{
+    width: 26.9%;
+    float: left;
+    margin-right: 5%;
+    margin-bottom: 3%;
+}  
+.name input{
+    width: 100%;
+} 
+.pro{
+    width: 40%;
+    float: left;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    
+
+}
+.pro input{
+    width: 100%
+}
+
+#working{
+    margin-right: 200px;
+}
+
+
+
+
+
+
+
+
+label{
+    padding-top: 10px;
+    font-size: 17px;
+    font-family: 'Raleway', sans-serif;
+}
+::placeholder{
+    font-family: 'Raleway', sans-serif;
+}
+select{
+    width: 50%;
+    margin-left: 10px;
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+    padding: 5px;
+    outline-color: transparent;    
+}
+.four{
+    float: left;
+}
+.four button{
+    margin-left: 100px;
+    margin-top: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    border: 1px solid #F4B41A;
+    border-radius: 12px;
+    padding:3px 7px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}

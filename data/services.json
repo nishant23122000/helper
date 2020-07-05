@@ -1,0 +1,54 @@
+
+    {
+        "category":[
+            {
+                "type":"Populer",
+                "service":["Home Cleaning","TV Repair","Bed Assembly","Handyman Service","Outlet Installation","Wall painting"],
+                "images":["https://images.pexels.com/photos/6003/man-hand-car-black.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","https://images.pexels.com/photos/3933020/pexels-photo-3933020.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","https://images.pexels.com/photos/3855469/pexels-photo-3855469.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","https://images.pexels.com/photos/3926791/pexels-photo-3926791.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","https://images.pexels.com/photos/6368/art-wall-brush-painting.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"]
+            },
+            {
+                "type":"Cleaning",
+                "service": ["Home Cleaning","Office Cleaning","Vacation Rental Cleaning","Bedroom Cleaning","Housekeeping"],
+                "images": ["https://images.pexels.com/photos/6003/man-hand-car-black.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","https://images.pexels.com/photos/380768/pexels-photo-380768.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","https://images.pexels.com/photos/3201922/pexels-photo-3201922.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","https://images.pexels.com/photos/545012/pexels-photo-545012.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","https://images.pexels.com/photos/4107279/pexels-photo-4107279.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"]
+
+
+            },
+            {
+                "type":"TV and Electronics",
+                "service":["TV Mounting","Home Theater AV Setup","TV Repair"],
+                "images":["https://images.pexels.com/photos/4107149/pexels-photo-4107149.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","https://images.pexels.com/photos/279719/pexels-photo-279719.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"]
+
+            },
+            {
+                "type":"Assembly",
+                "service":["Furniture Assembly","Bed Assembly","office Furniture Assembly"],
+                "images":["https://images.pexels.com/photos/3932958/pexels-photo-3932958.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","https://images.pexels.com/photos/3933020/pexels-photo-3933020.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","https://images.pexels.com/photos/273238/pexels-photo-273238.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"]
+
+            },
+            {
+                "type":"General Handyman",
+                "service":["Handyman Service","Hanging Pictures & Shelves"],
+                "images": ["https://images.pexels.com/photos/3855469/pexels-photo-3855469.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500","https://images.pexels.com/photos/4067759/pexels-photo-4067759.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"]
+
+            },
+            {
+                "type":"Plumbing",
+                "service":["Faucet Replacement","Toilet Clean","Plumbing Service"],
+                "images":["https://images.pexels.com/photos/3867623/pexels-photo-3867623.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","https://images.pexels.com/photos/3867608/pexels-photo-3867608.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","https://images.pexels.com/photos/1021872/pexels-photo-1021872.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"]
+
+            },
+            {
+                "type":"Electrical",
+                "service":["Outlet Installation","Light Fixtures"],
+                "images":["https://images.pexels.com/photos/3926791/pexels-photo-3926791.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","https://images.pexels.com/photos/3862621/pexels-photo-3862621.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"]
+
+            },
+            {
+                "type":"Painting",
+                "service":["Interior Painting","Bedroom painting","Wall painting"],
+                "images":["https://images.pexels.com/photos/3817583/pexels-photo-3817583.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","https://images.pexels.com/photos/276671/pexels-photo-276671.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940","https://images.pexels.com/photos/6368/art-wall-brush-painting.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"]
+            }
+        ]
+       
+    }
+    

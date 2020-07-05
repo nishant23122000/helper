@@ -1,0 +1,42 @@
+<%- include('../includes/header.ejs')%>
+<link rel="stylesheet" href="/css/service.css">
+<div class='preloader'>
+
+</div>
+<%- include('../includes/navbar.ejs')%>
+
+    <!-- <% for(var ser=0;ser<services.length;ser++) {%>
+        <h1><%= services[ser]['type']%></h1>
+        <% for(var i=0;i<services[ser]['images'].length;i++) {%>
+            <h4><%=services[ser]['service'][i]%></h4>
+        <%}%>
+      <% }%>   -->
+    <div class='service_page'>
+        <div class='cat'>
+            <p class="all-cat">All Categories</p>
+            <% for(var ser=0;ser<services.length;ser++) {%>
+                <p class='all-types'><a   href="#<%= services[ser]['type']%>"><%= services[ser]['type']%></a></p>
+ 
+         <% }%>
+        </div>
+        <% for(var ser=0;ser<services.length;ser++) {%>
+            <div class='service container'>
+            <p class='type'  id="<%= services[ser]['type']%>"><%= services[ser]['type']%></p>
+                <div class='category'>
+                    <% for(var i=0;i<services[ser]['images'].length;i++) {%>
+                        <div class='image'>
+                            <a href="/services/<%=services[ser]['type']%>"><img src="<%=services[ser]['images'][i]%>" alt="<%=services[ser]['service'][i]%>"></a>
+                            <p class='name'><%=services[ser]['service'][i]%></p>
+                        </div>
+                    <%}%>
+                </div>   
+        </div>
+    <% }%> 
+      
+    </div>
+   <div class='space'></div>
+    
+ 
+        
+       
+      <%- include('../includes/footer.ejs')%>

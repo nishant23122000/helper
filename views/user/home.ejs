@@ -1,0 +1,26 @@
+<%- include('../includes/header.ejs')%>
+</head>
+
+<%- include('../includes/navbar.ejs')%>
+
+
+     <section class='bg-image'>
+            <div class='center-body'>
+                <div class='center-content'>
+                    <h2>Do you need a service?</h2>
+                    <p>Which category of help do you need?</p>
+                        <div class='box'>
+                        <form class='search-box' action="/services">
+                            <input type="text" placeholder="Which Type of Service You Need?" id="result" name='result'>
+                        
+                            <a  id="button"><i class="fas fa-search"></i></a>
+                            </form>
+                    </div>
+                   
+
+                </div>
+            </div>
+     </section>
+     <%- include('../includes/footer.ejs')%>
+      
+  

@@ -1,0 +1,79 @@
+<%- include('../includes/header.ejs')%>
+<link rel="stylesheet" href="/css/apply_hire.css">
+<link rel="stylesheet" href="/css/service_hire.css">
+<%- include('../includes/navbar.ejs')%>
+
+    <section class='top'>
+        <div>
+            <img src="<%=image%>" alt="">
+            
+            <div class='div'>
+                <h1 class='service_name'><%=service%></h1>
+                <div class='form'>
+             <form action="/booking" method="POST">
+                    <input type="hidden" name="service" value="<%=service%>">
+                        <div class='name'>
+                            <label for="name">Full Name :</label>
+                        <input type="text" name="name" placeholder="Name" required>
+                        </div>
+                        <div class='name'>
+                            <label for="phoneno">Phone No :</label>
+                            <input type="number" name="phoneno" placeholder="Phone No" required>
+                        </div>
+                        <div class='name'>
+                            <label for="address">address :</label>
+                            <input type="text" name="address" placeholder="Working site (address)" required>
+                        </div>
+                        
+                       <div class='pro'>
+                        <label for="place">Is the mentioned place an office or home or other? </label>
+                        <select name='place'>
+                            <option value="Office">Office</option>
+                            <option value="Home">Home</option>
+                            <option value="Other">Other</option>
+                           
+                        </select>
+                       </div>
+                        <div class='pro'>
+                            <label for="workingtime">Which is your preferable working time?</label>
+                            <div class='time'>
+                                <input type="number"  name="workingtime"  required>
+                            </div>
+                            <div class='time'>
+                                <p>to</p>
+                            </div>
+                            <div class='time'>
+                                <input type="number"  name="workingtime"  required>
+                            </div>
+                            <div class='time'>
+                                <select name='weather'>
+                                    <option value="AM" >AM</option>
+                                    <option value="PM">PM</option>
+                                    
+                                   
+                                </select>
+                            </div>
+                          
+
+                        </div>
+                  
+                        <label id="working"  for="email">Enter email to receive details about your ideal helper</label>
+                        <input type="email" name="email" placeholder="email" required>
+                        <label id="working" for="budget">Maximum budget limit?</label>
+                        <input type="number" name="budget" placeholder="budget limit" required>
+                            <div class='four'>
+                                <label for="teaxarea">Particulars that you would like us to keep in mind?</label>
+                                <textarea name="teaxarea"  cols="30" rows="4"></textarea>
+                            </div>
+                            <!-- <div class='four'> -->
+                                <button type="submit">submit</button>
+                            <!-- </div> -->
+                        
+            
+                    </form>
+                </div> 
+            </div>
+        </div>
+        
+    </section>
+<%- include('../includes/footer.ejs')%>

@@ -1,0 +1,10 @@
+<%- include('../includes/header.ejs')%>
+
+<%- include('../includes/navbar.ejs')%>
+<%if(helper_data) { %>
+    <%= helper_data.email %>
+<% } else{%>
+    <h1>Email id Already exist or Try again later</h1>
+    <% } %>
+
+<%- include('../includes/footer.ejs')%>
